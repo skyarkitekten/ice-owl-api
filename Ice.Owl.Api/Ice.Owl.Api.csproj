@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Ice.Owl.Domain\Ice.Owl.Domain.csproj" />
+    <ProjectReference Include="..\Ice.Owl.Data\Ice.Owl.Data.csproj" />
   </ItemGroup>
 
 </Project>
