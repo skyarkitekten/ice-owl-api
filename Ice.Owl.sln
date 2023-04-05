@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ice.Owl.Api", "Ice.Owl.Api\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ice.Owl.Domain", "Ice.Owl.Domain\Ice.Owl.Domain.csproj", "{4CFF57EE-64AE-4C78-A06B-68EFEEB14361}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ice.Owl.Data", "Ice.Owl.Data\Ice.Owl.Data.csproj", "{F65E3A8A-06B4-4DDB-BC92-E082998B11E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{4CFF57EE-64AE-4C78-A06B-68EFEEB14361}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CFF57EE-64AE-4C78-A06B-68EFEEB14361}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CFF57EE-64AE-4C78-A06B-68EFEEB14361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F65E3A8A-06B4-4DDB-BC92-E082998B11E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F65E3A8A-06B4-4DDB-BC92-E082998B11E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F65E3A8A-06B4-4DDB-BC92-E082998B11E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F65E3A8A-06B4-4DDB-BC92-E082998B11E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
