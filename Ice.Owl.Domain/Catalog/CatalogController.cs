@@ -9,7 +9,7 @@ namespace Ice.Owl.Api.Controllers{
 
         private readonly StoreContext _db;
 
-        public CatalogController(StoreContect db)
+        public CatalogController(StoreContext db)
         {
             _db = db;
         }
