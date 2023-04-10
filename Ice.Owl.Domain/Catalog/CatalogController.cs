@@ -1,25 +1,20 @@
 using Microsoft.AspNetCore.Mvc;
 using Ice.Owl.Domain.Catalog;
-using Ice.Owl.Data;
+
 
 namespace Ice.Owl.Api.Controllers{
     [ApiController]
     [Route("[controller]")]
     public class CatalogController : ControllerBase {
 
-        private readonly StoreContext _db;
-
-        public CatalogController(StoreContect db)
-        {
-            _db = db;
-        }
-
-
         [HttpGet]
         public IActionResult GetItems() {
             
-
-           return Ok(_db.Items);
+            var items = new List<Item>(){
+               new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m),
+               new Item("Shorts", "Ohio State shorts.", "Nike", 44.99m) 
+            };
+           return Ok(items);
         }
 
         [HttpGet("{id:int}")]
